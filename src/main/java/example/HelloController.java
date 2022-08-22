@@ -24,10 +24,7 @@ import io.micronaut.validation.Validated;
 
 import javax.validation.constraints.NotBlank;
 
-/**
- * @author Graeme Rocher
- * @since 1.0
- */
+
 @Controller("/")
 @Validated
 public class HelloController {
